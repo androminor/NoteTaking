@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="title">Title</string>
+    <string name="time">Time</string>
+    <string name="button">Button</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="add_images">Add Images</string>
+    <string name="desc">Desc</string>
+
+</resources>

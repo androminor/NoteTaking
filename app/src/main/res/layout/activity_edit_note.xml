@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.EditNoteActivity">
+
+    <EditText
+        android:id="@+id/noteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_title"
+        android:minHeight="48dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/dark_blue" />
+
+    <EditText
+        android:id="@+id/noteDescription"
+        android:layout_width="397dp"
+        android:layout_height="746dp"
+        android:layout_above="@id/addUpdate"
+        android:layout_below="@id/noteTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="start|top"
+        android:hint="@string/enter_description"
+
+        android:singleLine="false"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/dark_blue" />
+
+
+        <Button
+        android:id="@+id/addUpdate"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/custom_button_darkblue"
+        android:text="@string/button"
+        android:textAllCaps="false" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:elevation="8dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
